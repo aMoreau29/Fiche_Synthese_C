@@ -39,11 +39,9 @@ for(i=5;i<=15;i++)
 ```
 ```c
 int a=0;
-int b=3;
 while(a<50)
 {
-  a=a+b;
-  b++;
+  a=a+3;
   prntf("%d",a);
 }
 ```
