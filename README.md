@@ -10,6 +10,11 @@ char c;
 
 ## Entrées-Sorties
 
+```c
+printf("Le resusltat est : %d", nb);
+scanf("%f",&d);
+```
+
 ## Structure de controle
 
 ## Variables composées
