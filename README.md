@@ -10,12 +10,25 @@ char c;
 ## Entrées-Sorties
 
 ```c
-scanf("%f",&d);
-printf("Le resusltat est : %d", nb);
+scanf("%f %d",&d,&nb);
+printf("Le nombre entier est : %d", nb);
 ```
 
 ## Structure de controle
 
+```c
+
+```
+
+
 ## Variables composées
 
+```c
+
+```
+
 ## Fonctions
+
+```c
+
+```
