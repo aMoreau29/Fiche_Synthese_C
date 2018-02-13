@@ -62,7 +62,10 @@ while(entier<0)
 
 ```c
 int b=8;
-if(b>0 && 
+if(b<=20 && b>=0) // on peut remplacer les '&&' (et) par des '||' (ou) 
+{
+  b++
+}
 
 ```
 ```c
