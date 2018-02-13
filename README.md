@@ -3,9 +3,9 @@
 ## Variables
 
 ```c
-int nb;
-float d;
-char c;
+int nb; // entier
+float d; // réel
+char c; // caractère
 ```
 ## Entrées-Sorties
 
