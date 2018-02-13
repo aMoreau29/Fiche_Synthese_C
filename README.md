@@ -45,7 +45,7 @@ int a=0;
 while(a<50)
 {
   a=a+3;
-  prntf("%d",a);
+  prntf("%d",a); //On peut sortir ce printf si l'on souhaite avoir seulement la valeur finale de a
 }
 ```
 //Exemple 2
