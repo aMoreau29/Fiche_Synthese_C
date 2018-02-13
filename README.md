@@ -30,6 +30,7 @@ scanf("%f %d",&reel,&nb);
 
 ## Structure de controle
 ### Boucles
+#### Boucle FOR
 ```c
 int i;
 for(i=5;i<=15;i++)
@@ -37,6 +38,8 @@ for(i=5;i<=15;i++)
   printf("%d",i);
 }
 ```
+#### Boucle while
+//Exemple 1
 ```c
 int a=0;
 while(a<50)
@@ -44,6 +47,16 @@ while(a<50)
   a=a+3;
   prntf("%d",a);
 }
+```
+//Exemple 2
+```c
+int entier;
+do
+{
+printf("Veuillez rentrer un nombre entier positif");
+scanf("%d",entier);
+}
+while(entier<0)
 ```
 ### Tests
 
