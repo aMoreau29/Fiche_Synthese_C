@@ -66,9 +66,6 @@ if(b>0 &&
 
 ```
 ```c
-int NbeEnfant;
-int Reduction;
-int Reduc;
 printf("Combien d'enfant avez vous ?");
 scanf("%d",&NbeEnfant),
 switch(NbeEnfant)
