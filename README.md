@@ -61,10 +61,11 @@ while(entier<0)
 ### Tests
 
 ```c
-int b=8;
+int note=12;
 if(b<=20 && b>=0) // on peut remplacer les '&&' (et) par des '||' (ou) 
 {
-  b++
+  b++;
+  printf("%d",note);
 }
 
 ```
