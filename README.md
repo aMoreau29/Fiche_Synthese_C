@@ -1,11 +1,11 @@
 # Fiche_Synthese_C
 
-##Variables
+## Variables
 
-##Entrées-Sorties
+## Entrées-Sorties
 
-##Structure de controle
+## Structure de controle
 
-##Variables composées
+## Variables composées
 
-##Fonctions
+## Fonctions
