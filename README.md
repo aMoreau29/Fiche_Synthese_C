@@ -61,12 +61,15 @@ while(entier<0)
 ### Tests
 
 ```c
-int note=12;
-if(b<=20 && b>=0) // on peut remplacer les '&&' (et) par des '||' (ou) 
+int Note=12;
+if(b<=20 && b>=12) // on peut remplacer les '&&' (et) par des '||' (ou) 
 {
-  
+  printf("Vous avez eu une bonne note");
 }
-
+else 
+{
+  printf("Vous n'avez pas eu une bonne note");
+}
 ```
 ```c
 printf("Combien d'enfant avez vous ?");
