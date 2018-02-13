@@ -7,9 +7,17 @@ int nb;  //entier
 float reel;  //réel
 char c;  //caractère
 ```
-## Entrées-Sorties
-> Les printf et scanf doivent comporter autant de % que de virgules
+type | indicateur
+--- | ---
+int | %d
+float | %f
+char | %c
+char | %s     // Pour un chaîne de caracteres
 
+
+## Entrées-Sorties
+
+> Les printf et scanf doivent comporter autant de % que de virgules
 ### Affichage a l'écran
 ```c
 printf("Le nombre entier est : %d", nb); 
