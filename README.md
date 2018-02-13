@@ -7,15 +7,15 @@ int nb;  //entier
 float reel;  //réel
 char c;  //caractère
 ```
-type | indicateur
---- | ---
-int | %d
-float | %f
-char | %c
-char | %s     // Pour un chaîne de caracteres
-
 
 ## Entrées-Sorties
+
+type | indicateur | descricription
+--- | --- | ---
+int | %d | Entier
+float | %f |réel
+char | %c | caractere
+char | %s | chaîne de caracteres
 
 > Les printf et scanf doivent comporter autant de % que de virgules
 ### Affichage a l'écran
