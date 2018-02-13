@@ -38,8 +38,8 @@ for(i=5;i<=15;i++)
   printf("%d",i);
 }
 ```
-#### Boucle while
-//Exemple 1
+#### Boucle WHILE
+
 ```c
 int a=0;
 while(a<50)
@@ -48,7 +48,7 @@ while(a<50)
   prntf("%d",a); //On peut sortir ce printf si l'on souhaite avoir seulement la valeur finale de a
 }
 ```
-//Exemple 2
+
 ```c
 int entier;
 do
@@ -66,9 +66,27 @@ if(b>0 &&
 
 ```
 ```c
-switch
+int NbeEnfant;
+int Reduction;
+int Reduc;
+printf("Combien d'enfant avez vous ?");
+scanf("%d",&NbeEnfant),
+switch(NbeEnfant)
+{
+case 0 :
+   printf("Vous ne pouvez pas avoire de reduction");
+   break;
+case 1 :
+   printf("Vous avez une reduction de 10%");
+   break;
+case 2 :
+   printf("Vous avez une reduction de 30%");
+   break;
+default :
+   printf("Vous avez une reduction de 50%");
+   break;
+}
 ```
-
 ## Variables composées
 
 ```c
