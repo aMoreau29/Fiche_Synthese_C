@@ -4,6 +4,8 @@
 
 ```c
 int nb;
+float d;
+char c;
 ```
 
 ## Entrées-Sorties
